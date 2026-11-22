@@ -64,7 +64,7 @@ footer {
 }
 #calculator-back {
     box-sizing: content-box;
-    min-width: 335px;
+    max-width: 355px;
     align-self: center;
     justify-self: center;
     background-color: #181818;
@@ -143,6 +143,7 @@ footer {
     grid-template-rows: repeat(4, 1fr);
     row-gap: 2px;
     column-gap: 5px;
+    box-sizing: content-box;
 }
 #bracket {
     background-color: #2f2f2f;
