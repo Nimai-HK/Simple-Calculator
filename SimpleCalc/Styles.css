@@ -61,6 +61,8 @@ footer {
     display: inline-flex;
     margin-top: 8px;
     margin-left: 20px;
+    position: absolute;
+    right: 10px;
 }
 #calculator-back {
     box-sizing: content-box;
@@ -139,8 +141,8 @@ footer {
 }
 #calc-buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6,auto);
     row-gap: 2px;
     column-gap: 5px;
     box-sizing: content-box;
