@@ -154,3 +154,24 @@ footer {
 #bracket:hover {
     background-color: #212121;
 }
+#clr:active {
+    background-color: #2f1414;
+}
+#del:active {
+    background-color: #4b3b21;
+}
+#solve:active {
+    background-color: #1c332b;
+}
+.calc-func:active {
+    background-color: #1a2734;
+}
+.calc-func-sub:active {
+    background-color: #131313;
+}
+#num:active {
+    background-color: #1e1e1e;
+}
+#bracket:active {
+    background-color: #131313;
+}
